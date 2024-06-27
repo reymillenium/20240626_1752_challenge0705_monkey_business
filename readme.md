@@ -6,38 +6,16 @@
 
 ### Exercise Description:
 
-Suppose you have a certain amount of money in a savings account that earns compound monthly interest, and you want to calculate the amount that you will have after a specific number of months. The formula, which is known as the future value formula, is
+A local zoo wants to keep track of how many pounds of food each of its three monkeys eats each day during a typical week. Write a program that stores this information in a two-dimensional 3 × 5 array, where each row represents a different monkey, and each column represents a different day of the
+week. The program should first have the user input the data for each monkey. Then, it should create a report that includes the following information:
 
-𝐹 = 𝑃 × 1 + 𝑖<sup>𝑡</sup>
+• Average amount of food eaten per day by the whole family of monkeys.
 
-The terms in the formula are as follows:
+• The least amount of food eaten during the week by any one monkey.
 
-• _F_ is the **future value** of the account after the specified time period.
+• The greatest amount of food eaten during the week by any one monkey.
 
-• _P_ is the **present value** of the account.
-
-• _i_ is the **monthly interest rate**.
-
-• _t_ is the **number of months**.
-
-Write a program that prompts the user to enter the account’s present value, monthly interest rate, and the number of months that the money will be left in the account. The program should pass these values to a function named`futureValue`that returns the future value of the account, after the
-specified number of months. The program should display the account’s future value.
-
-**Note:**
-
-The Future Value Formula shown on the mandatory Pearson ebook is wrong:
-
-𝐹 = 𝑃 × 1 + 𝑖<sup>𝑡</sup>
-
-That's mathematically equivalent to:
-
-𝐹 = 𝑃 + 𝑖<sup>𝑡</sup>
-
-And that's also **not** the Future Value Formula.
-
-The real Future Value Formula (using Compound interest) is:
-
-𝐹 = 𝑃 × (1 + 𝑖)<sup>𝑡</sup>
+_Input Validation: Do not accept negative numbers for pounds of food eaten._
 
 ## Execution from the Terminal (Alternative way without an IDE):
 
